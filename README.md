@@ -27,3 +27,10 @@ Getting started:
 ##### To load the component:
 
 `var ConfirmationBox = require("react-confirmation-box");`
+
+
+
+Example:
+---------------------
+
+Open the 'index.html' file from the 'sample' folder into your browser to see an example of usage.
