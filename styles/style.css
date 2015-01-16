@@ -32,6 +32,8 @@
 }
 
 button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
     border-radius: 3px;
     margin: 5px auto;
     display: block;
@@ -41,6 +43,7 @@ button {
     color: white;
     opacity: 0.62;
     border: none;
+    cursor: pointer;
 }
 
 button.warning {

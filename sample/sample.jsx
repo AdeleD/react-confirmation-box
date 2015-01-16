@@ -16,7 +16,7 @@ var App = React.createClass({
                              inputMarkup={'<input id="id_password" name="password" type="password">'}
                              warningMessage={'To permanently delete your Ulule account, please enter your password and click on the red button'}
                              validationName={'Validate the definitive deletion of my account'}
-                             cancellationName={'Cancel deletion'} />,
+                             cancellationName={'Cancel deletion'} />
       </div>
     );
   }
