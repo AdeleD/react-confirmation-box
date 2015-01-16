@@ -26,4 +26,4 @@ Getting started:
 
 ##### To load the component:
 
-`var DynamicFields = require("react-confirmation-box");`
+`var ConfirmationBox = require("react-confirmation-box");`
