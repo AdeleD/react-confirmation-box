@@ -1,0 +1,36 @@
+{
+  "name": "react-confirmation-box",
+  "version": "0.0.1",
+  "description": "A ReactJS component that create a confirmation box.",
+  "main": "./react_components/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdeleD/react-confirmation-box"
+  },
+  "keywords": [
+    "confirmation",
+    "confirmation box"
+  ],
+  "author": "Adèle Delamarche",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/AdeleD/react-confirmation-box/issues"
+  },
+  "dependencies": {
+    "react": "~0.11.2",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "browserify": "~6.0.3",
+    "vinyl-source-stream": "~1.0.0",
+    "reactify": "~0.14.0",
+    "watchify": "~2.0.0",
+    "react-tools": "~0.11.2"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
